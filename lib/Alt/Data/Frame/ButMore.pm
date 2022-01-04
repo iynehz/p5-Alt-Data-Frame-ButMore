@@ -1,6 +1,6 @@
 package Alt::Data::Frame::ButMore;
 
-# ABSTRACT: Alternative implementation of Data::Frame with more features
+# ABSTRACT: DEPRECATED Alternative implementation of Data::Frame
 
 use strict;
 use warnings;
@@ -13,13 +13,16 @@ __END__
 
 =head1 SYNOPSIS
 
-    use Alt::Data::Frame::ButMore;
     use Data::Frame;
 
 =head1 DESCRIPTION
 
-It's been too long I cannot reach ZMUGHAL.
-So here I release my L<Alt> implenmentation. 
+This distribution was originally a fork and alternative implementation of
+L<Data::Frame>. Now with L<Data::Frame> regaining maintenance, this
+distribution's code has been merged into L<Data::Frame>. And since this
+distribution's version 0.006001 now its installation simply gets
+you L<Data::Frame>, and this distribution is kept only as a wrapper for
+compatibility.
 
 =head1 SEE ALSO
 
@@ -27,4 +30,3 @@ L<Alt>
 
 L<Data::Frame>
 
-L<https://github.com/EntropyOrg/p5-Data-Frame/issues/27>
